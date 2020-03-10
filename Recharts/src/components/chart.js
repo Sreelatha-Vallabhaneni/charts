@@ -7,7 +7,6 @@ import {
   Tooltip,
   Line, Brush, ReferenceLine
 } from "recharts";
-//import sampleData from '../data/sampleData.json';
 import shiso from './lettuce.json';
 import './chart.style.css';
 
@@ -27,7 +26,7 @@ const Chart = () => {
             domain={["dataMin", "dataMax"]}
             //interval={0}
             tick={{ fontSize: 10, fill: "grey", strokeWidth: 2 }}
-            angle={30}
+            //angle={30}
           ></XAxis>
           <YAxis
             //dataKey="temp"
