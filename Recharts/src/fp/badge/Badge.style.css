@@ -1,0 +1,7 @@
+.badge{
+    background-color:red;
+    color: white;
+}
+.badge.active{
+    background-color:green;
+}
